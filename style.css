@@ -173,8 +173,6 @@ i {
     padding-top: 5px;
     border-radius: 25px;
     text-align: center;
-    margin-top: 375px;
-    padding-top: 10px;
 }
 
 #openButton {
@@ -216,6 +214,11 @@ img {
 }
 @media (max-width: 650px) {
     
+    .popup-content {
+        margin-top: 375px;
+        padding-top: 10px;
+    }
+
     .popup-content {
         width: 85%;
     }
