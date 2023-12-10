@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+html {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to top, #000, #333);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: montserrat, sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 550px;
+    background: linear-gradient(to bottom, #111, black 40%);
+    border-radius: 50px;
+    box-shadow: 0 0 50px;
+}
+
+.txt {
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #dad7cd;
+}
+
+.txt p {
+    margin: 0 5px 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+i {
+    font-size: 30px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 35px;
+}
+
+.form input {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: #000000a4;
+    color: #dad7cd;
+    font-family: inherit;
+    transition: all .3s;
+}
+
+.form input::placeholder {
+    color: #dad7cd;
+}
+
+.form button {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: initial;
+    color: #000;
+    font-weight: 500;
+    font-family: inherit;
+    cursor:pointer;
+    transition: all .3s;
+}
+
+.form button:hover {
+    color: #000000c0;
+    background-color:#0000001c;
+}
+
+.form input:hover {
+    background-color: #000000d3;
+}
+
+.form input:focus {
+    background-color: #000000d3;
+}
+
+video {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+
+@media (max-width: 600px) {
+    .box {
+        height: 450px;
+        width: 350px;
+    }
+
+    .txt h1 {
+        font-size: 25px;
+    }
+
+    .txt p {
+        margin: 0 15px 0 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    i {
+        font-size: 16px;
+    }
+
+    video {
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+    }
+}
+

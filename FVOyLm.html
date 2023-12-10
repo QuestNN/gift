@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продолжаем...</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://wancharle.github.io/emoji-css/emoji.css">
+
+     <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(95772412, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/95772412" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var openButton = document.getElementById('openButton');
+    var popupContainer = document.getElementById('popupContainer');
+    var closeButton = document.getElementById('closeButton');
+
+    openButton.addEventListener('click', function() {
+        popupContainer.style.display = 'flex';
+    });
+
+    closeButton.addEventListener('click', function() {
+        popupContainer.style.display = 'none';
+    });
+});
+
+ </script>
+ 
+</head>
+<body>
+    <div class="container">
+            <div class="box">
+                <div class="txt">
+                    <div class="h1"><h1>Продолжаем...</h1></div>
+            
+                </div>
+                <!-- Кнопка для открытия всплывающего окна -->
+                <button id="openButton">Введите текст...</button>
+
+                <!-- Контейнер всплывающего окна -->
+                <div class="popup-container" id="popupContainer">
+                    <div class="popup-content">
+                        <!-- Содержимое всплывающего окна -->
+                        <div class="img">
+                            <img src="photo/6.jpg">
+                            <img src="photo/7.jpg">
+                        </div>
+                        <button id="closeButton">Закрыть</button>
+                    </div>
+                </div>
+<!-- Form -->
+                <div class="form">
+                    <form id="passwordForm">
+                        <!-- <label for="password">Пароль:</label> -->
+                        <input type="password" id="password" required placeholder="Пароль">
+                        <button type="button" onclick="checkPassword()">Проверить</button>
+                    </form>
+<!-- JS скрипт -->
+                    <script>
+                        function checkPassword() {
+                            var enteredPassword = document.getElementById("password").value;
+                            var correctPassword = "123"; // Замените "ваш_пароль" на фактический пароль
+                
+                            if (enteredPassword === correctPassword) {
+                                // Перенаправление на следующий сайт
+                                window.location.href = "lNmkjY.html"; // Замените URL на целевой сайт
+                            } else {
+                                alert("Не-а");
+                            }
+                        }
+                    </script>
+                </div>
+
+            </div>
+    </div>
+</body>
+</html>
