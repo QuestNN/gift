@@ -162,6 +162,7 @@ i {
     background: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: center;
+    overflow-y: scroll;
 }
 
 /* Стили для содержимого всплывающего окна */
@@ -203,7 +204,6 @@ i {
     font-size: 16px;
     margin-top: 10px;
     font-family: inherit;
-    overflow-y: scroll;
 }
 
 img {
