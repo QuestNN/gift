@@ -162,7 +162,7 @@ i {
     background: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 /* Стили для содержимого всплывающего окна */
