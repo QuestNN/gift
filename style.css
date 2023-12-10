@@ -153,7 +153,8 @@ i {
 
 /* Стили для контейнера всплывающего окна */
 .popup-container {
-    display: none;
+    /* display: none; */
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -167,11 +168,13 @@ i {
 
 /* Стили для содержимого всплывающего окна */
 .popup-content {
-    margin: 50px;
+    margin: 5px;
     background-color: #dad7cd;
-    padding: 20px;
+    padding-top: 5px;
     border-radius: 25px;
     text-align: center;
+    margin-top: 375px;
+    padding-top: 10px;
 }
 
 #openButton {
@@ -197,13 +200,13 @@ i {
 /* Стили для кнопки закрытия всплывающего окна */
 #closeButton {
     background-color: #000000d3;;
-    color: #fff;
+    color: #dad7cd;
     padding: 10px 20px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 16px;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
     font-family: inherit;
 }
 
